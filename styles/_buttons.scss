@@ -1,0 +1,44 @@
+.round-button-base{
+    position: relative;
+    background-color: $red;
+    border-radius: 50%;
+    border: none;
+    width: 120px;
+    height: 116px;
+    box-shadow: 0 3px 8px rgba(black, 0.3);
+    &:hover{
+        cursor: pointer;
+        background-color: darken($red, 5%);
+        div{
+            background-color: darken($dark-red, 5%);
+        }
+    }
+    &:focus{
+        box-shadow: 0 0  5px 5px rgba(black, 0.3);
+        outline: none;
+    }
+    div{
+        position: absolute;
+        width: 116px;
+        height: 116px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        background-color: $dark-red;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 80%;
+    }
+}
+
+.icon-person{
+    background-image:  url(./../figures/icons/person.svg);
+}
+
+.icon-folder{
+    background-image:  url(./../figures/icons/folder_open.svg);
+}
+
+.icon-call{
+    background-image:  url(./../figures/icons/call.svg);
+}

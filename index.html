@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="styles/style.css" />
-</head>
-<body>
-    <section class="pseudo-page"></section>
-    <section class="pseudo-page">
-        <header class="pseudo-page-header" id="about-header">
-            <h1>About</h1>
-        </header>
-    </section>
-    <section class="pseudo-page">
-        <header class="pseudo-page-header" id="projects-header">
-            <h1>Project Highlights</h1>
-        </header>
-    </section>
-    <section class="pseudo-page">
-        <header class="pseudo-page-header" id="contact-header">
-            <h1>Contact me</h1>
-        </header>
-    </section>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="Portfolio" />
+        <title>Jakob Endrestad Kielland</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <section class="pseudo-page" id="landing_page">
+            <div class="round-button-container">
+                <button class="round-button-base" onclick="scrollToPage('about_page')">
+                    <div class="icon-person"></div>
+                </button>
+                <button class="round-button-base" onclick="scrollToPage('projects_page')">
+                    <div class="icon-folder"></div>
+                </button>
+                <button class="round-button-base" onclick="scrollToPage('contact_page')">
+                    <div class="icon-call"></div>
+                </button>
+            </div>
+        </section>
+
+        <section class="pseudo-page" id="about_page">
+            <header class="pseudo-page-header" id="about_header">
+                <h1>About</h1>
+            </header>
+        </section>
+
+        <section class="pseudo-page" id="projects_page">
+            <header class="pseudo-page-header" id="projects_header">
+                <h1>Project Highlights</h1>
+            </header>
+        </section>
+
+        <section class="pseudo-page" id="contact_page">
+            <header class="pseudo-page-header" id="contact_header">
+                <h1>Contact me</h1>
+            </header>
+        </section>
+    </body>
+</html>
