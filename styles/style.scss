@@ -1,0 +1,16 @@
+@import "./resources";
+@import "./containers";
+@import "./header";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    background: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+}

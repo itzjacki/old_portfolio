@@ -1,1 +1,61 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+.pseudo-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.pseudo-page-header {
+  background-color: #B40421;
+  width: 100%;
+  height: 10vh;
+  min-height: 7em;
+  margin: 5vh 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pseudo-page-header h1 {
+  color: white;
+  background: #B40421;
+  margin: auto;
+  line-height: 1;
+  padding: 5px;
+  font-size: 5em;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+#about-header {
+  background-image: url(./../figures/topography.svg);
+  background-size: 50vmax;
+}
+
+#projects-header {
+  background-image: url(./../figures/circuit-board.svg);
+  background-size: 20vmax;
+}
+
+#contact-header {
+  background-image: url(./../figures/wiggle.svg);
+  background-size: 5vmax;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background: #EDF2F4;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
